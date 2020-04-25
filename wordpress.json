@@ -1,10 +1,10 @@
 {
-  "name": "lychee",
+  "name": "wordpress",
   "release": "11.3-RELEASE",
   "artifact": "https://github.com/waterlou/iocage-plugin-wordpress.git",
   "properties": {
     "allow_mount_tmpfs": "1",
-	"allow_raw_sockets":"1",
+	  "allow_raw_sockets":"1",
     "boot":"on",
     "dhcp":"on",
     "vnet":"on",
@@ -17,6 +17,11 @@
     "lang/php74",
     "lang/php74-extensions",
     "php74-gd",
+    "php74-xml",
+    "php74-curl",
+    "php74-tokenizer",
+    "php74-zlib",
+    "php74-zip",
     "php74-mysqli",
     "py37-certbot-nginx",
     "git"
