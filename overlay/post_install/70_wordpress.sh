@@ -53,3 +53,6 @@ done < ${SECRETKEY}
 rm ${SECRETKEY}
 
 chown -R www:www ${WORDPRESS_PATH}
+
+# wordpress don't like git and like to update using it's own system
+rm -rf .git*

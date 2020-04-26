@@ -24,6 +24,10 @@
     "php74-zip",
     "php74-mysqli",
     "php74-exif",
+    "php74-mbstring",
+    "php74-openssl",
+    "php74-pecl-imagick-im7",
+    "php74-fileinfo",
     "py37-certbot-nginx",
     "git"
   ],
