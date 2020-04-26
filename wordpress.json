@@ -23,6 +23,7 @@
     "php74-zlib",
     "php74-zip",
     "php74-mysqli",
+    "php74-exif",
     "py37-certbot-nginx",
     "git"
   ],
