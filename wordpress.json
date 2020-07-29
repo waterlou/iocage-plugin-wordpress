@@ -1,6 +1,6 @@
 {
   "name": "wordpress",
-  "release": "11.3-RELEASE",
+  "release": "12.1-RELEASE",
   "artifact": "https://github.com/waterlou/iocage-plugin-wordpress.git",
   "properties": {
     "allow_mount_tmpfs": "1",
@@ -13,7 +13,6 @@
   "pkgs": [
     "www/nginx",
     "databases/mysql57-server",
-    "databases/redis",
     "lang/php74",
     "lang/php74-extensions",
     "php74-gd",
@@ -28,10 +27,9 @@
     "php74-openssl",
     "php74-pecl-imagick-im7",
     "php74-fileinfo",
-    "py37-certbot-nginx",
     "git"
   ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
 		  "plugin-default": [
 				  {
